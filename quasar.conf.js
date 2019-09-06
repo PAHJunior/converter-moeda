@@ -14,12 +14,12 @@ module.exports = function (ctx) {
     ],
 
     extras: [
-      // 'ionicons-v4',
-      // 'mdi-v3',
-      // 'fontawesome-v5',
-      // 'eva-icons',
-      // 'themify',
-      // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
+      'ionicons-v4',
+      'mdi-v3',
+      'fontawesome-v5',
+      'eva-icons',
+      'themify',
+      'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
       'roboto-font', // optional, you are not bound to it
       'material-icons' // optional, you are not bound to it
@@ -44,7 +44,12 @@ module.exports = function (ctx) {
         'QList',
         'QItem',
         'QItemSection',
-        'QItemLabel'
+        'QItemLabel',
+        'QCard',
+        'QCardSection',
+        'QCardActions',
+        'QInput',
+        'QAvatar'
       ],
 
       directives: [
@@ -66,7 +71,12 @@ module.exports = function (ctx) {
       // gzip: true,
       // analyze: true,
       // extractCSS: false,
-      extendWebpack (cfg) {
+      env: ctx.dev ? {
+        VERSAO: JSON.stringify(require('./package.json').version),
+      } : {
+        VERSAO: JSON.stringify(require('./package.json').version)
+      },
+      extendWebpack(cfg) {
         cfg.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
@@ -103,8 +113,7 @@ module.exports = function (ctx) {
         orientation: 'portrait',
         background_color: '#ffffff',
         theme_color: '#027be3',
-        icons: [
-          {
+        icons: [{
             'src': 'statics/icons/icon-128x128.png',
             'sizes': '128x128',
             'type': 'image/png'
@@ -141,7 +150,7 @@ module.exports = function (ctx) {
     electron: {
       // bundler: 'builder', // or 'packager'
 
-      extendWebpack (cfg) {
+      extendWebpack(cfg) {
         // do something with Electron main process Webpack cfg
         // chainWebpack also available besides this extendWebpack
       },
