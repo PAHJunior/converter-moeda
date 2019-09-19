@@ -158,35 +158,35 @@ export default {
         {
           label: 'Biticon',
           value: 'biticon',
-          valor: '38938.78',
+          valor: '42123.00',
           icon: 'img:statics/moedas/bitcoin.png',
           img: 'statics/moedas/bitcoin.png'
         },
         {
           label: 'Ethereum',
           value: 'ethereum',
-          valor: '679.82',
+          valor: '741.88',
           icon: 'img:statics/moedas/Ethereum.png',
           img: 'statics/moedas/Ethereum.png'
         },
         {
           label: 'Ripple',
           value: 'ripple',
-          valor: '1.03',
+          valor: '1.07',
           icon: 'img:statics/moedas/Ripple.png',
           img: 'statics/moedas/Ripple.png'
         },
         {
           label: 'Litecoin',
           value: 'litecoin',
-          valor: '261.84',
+          valor: '286.30',
           icon: 'img:statics/moedas/litecoin.png',
           img: 'statics/moedas/litecoin.png'
         },
         {
           label: 'Biance coin',
           value: 'biancecoin',
-          valor: '85.86',
+          valor: '91.34',
           icon: 'img:statics/moedas/biancecoin.png',
           img: 'statics/moedas/biancecoin.png'
         },
@@ -200,30 +200,51 @@ export default {
         {
           label: 'Monero',
           value: 'monero',
-          valor: '265.83',
+          valor: '310.79',
           icon: 'img:statics/moedas/Monero.png',
           img: 'statics/moedas/Monero.png'
         },
+        // {
+        //   label: 'Dash',
+        //   value: 'dash',
+        //   valor: '318.77',
+        //   icon: 'img:statics/moedas/Dash.png',
+        //   img: 'statics/moedas/Dash.png'
+        // },
+        // {
+        //   label: 'NEO',
+        //   value: 'neo',
+        //   valor: '34.69',
+        //   icon: 'img:statics/moedas/Neo.png',
+        //   img: 'statics/moedas/Neo.png'
+        // },
+        // {
+        //   label: 'NEM',
+        //   value: 'nem',
+        //   valor: '0.19',
+        //   icon: 'img:statics/moedas/Nem.png',
+        //   img: 'statics/moedas/Nem.png'
+        // },
         {
-          label: 'Dash',
-          value: 'dash',
-          valor: '318.77',
-          icon: 'img:statics/moedas/Dash.png',
-          img: 'statics/moedas/Dash.png'
+          label: 'EOS',
+          value: 'eos',
+          valor: '15.85',
+          icon: 'img:statics/moedas/eos.png',
+          img: 'statics/moedas/eos.png'
         },
         {
-          label: 'NEO',
-          value: 'neo',
-          valor: '34.69',
-          icon: 'img:statics/moedas/Neo.png',
-          img: 'statics/moedas/Neo.png'
-        },
-        {
-          label: 'NEM',
-          value: 'nem',
+          label: 'Cardano',
+          value: 'ada',
           valor: '0.19',
-          icon: 'img:statics/moedas/Nem.png',
-          img: 'statics/moedas/Nem.png'
+          icon: 'img:statics/moedas/ada.png',
+          img: 'statics/moedas/ada.png'
+        },
+        {
+          label: 'Tether',
+          value: 'usdt',
+          valor: '4.07',
+          icon: 'img:statics/moedas/usdt.png',
+          img: 'statics/moedas/usdt.png'
         }
       ]
     }

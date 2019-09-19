@@ -50,7 +50,9 @@ module.exports = function (ctx) {
         'QCardActions',
         'QInput',
         'QAvatar',
-        'QSelect'
+        'QSelect',
+        'QScrollArea',
+        'QImg'
       ],
 
       directives: [
