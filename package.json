@@ -1,6 +1,6 @@
 {
   "name": "converter_moeda",
-  "version": "0.0.1",
+  "version": "0.2",
   "description": "Projeto de conversão de moedas",
   "productName": "Conversão de Moedas",
   "cordovaId": "org.cordova.quasar.app",

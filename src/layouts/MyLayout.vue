@@ -38,13 +38,13 @@
               </q-item-section>
             </q-item>
 
-            <q-item clickable tag="a" target="_blank" href="https://web.whatsapp.com/send?phone=5511942318033">
+            <q-item>
               <q-item-section avatar>
                 <q-icon name="fab fa-whatsapp" />
               </q-item-section>
               <q-item-section>
                 <q-item-label>Whatsapp</q-item-label>
-                <q-item-label caption>Paulo - (11) 94231-8033</q-item-label>
+                <q-item-label caption>(11) 94231-8033</q-item-label>
               </q-item-section>
             </q-item>
           </q-list>

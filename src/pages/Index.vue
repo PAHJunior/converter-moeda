@@ -57,7 +57,7 @@
                       </q-item-section>
                       <q-item-section>
                         <q-item-label v-html="scope.opt.label" />
-                        <q-item-label caption>{{ scope.opt.description }}</q-item-label>
+                        <q-item-label caption>R$ {{ scope.opt.valor }}</q-item-label>
                       </q-item-section>
                     </q-item>
                   </template>
@@ -105,7 +105,7 @@
                       </q-item-section>
                       <q-item-section>
                         <q-item-label v-html="scope.opt.label" />
-                        <q-item-label caption>{{ scope.opt.description }}</q-item-label>
+                        <q-item-label caption>R$ {{ scope.opt.valor }}</q-item-label>
                       </q-item-section>
                     </q-item>
                   </template>
@@ -143,7 +143,7 @@ export default {
   },
   data () {
     return {
-      quantidade: 0,
+      quantidade: 1,
       qtd: 110,
       para: '',
       de: '',
